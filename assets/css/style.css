@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700&subset=latin-ext');
+
 :root {
     --bg-color: #fafafa;
     --bg-hover-color: #ececec;
@@ -16,7 +19,10 @@
 }
 
 body{
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Nanum Gothic Coding', 'Nanum Myeongjo', sans-serif;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+  font-weight: bold;
   font-weight: 300;
   background: var(--body-bg);
   color: var(--primary-font-color);
