@@ -1,13 +1,6 @@
 ---
-layout: default
+layout: layout
 ---
 
-<div class="post-container">
-	<div class="post-list">
-		<span class="post-title">{{page.title}}</span>
-	</div>
-</div>
-<div class="blog-post-content">
-	<h1>{{page.title}}</h1>
-	{{ content }}
-</div>
+{% assign __ = site.data.languages[site.language] %}
+{% include page.html %}
