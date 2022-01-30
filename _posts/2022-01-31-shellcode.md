@@ -22,7 +22,7 @@ tags: [dreamhack, pwnable, shellcode]
 |write|1|unsigned int fd|const char *buf|size_t count|
 |open|2|const char *filename|int flags|umode_t mode|
 
-## orw 쉘코드 작성 ~~
+## orw 쉘코드 작성
 우리가 예제로 작성할 c 코드는 다음과 같다. open, read, write syscall을 순서대로 실행한다. /tmp/flag 파일을 읽고 출력한다.
 
 ```c++
