@@ -1,5 +1,5 @@
 ---
-title: "[system] shellcode"
+title: "[pwnable] shellcode"
 date: 2022-01-23T00:00:00+00:00
 author: 이정목
 layout: post
