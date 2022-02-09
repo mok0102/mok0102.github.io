@@ -65,7 +65,7 @@ int main() {
 
 ```python
 from pwn import *
-p = process("./rao)
+p = process("./rao")
 
 p.recvuntil("Input: ")
 
