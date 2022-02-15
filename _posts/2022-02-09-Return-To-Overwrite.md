@@ -3,9 +3,9 @@ title: "[pwnable] Return To Overwrite"
 date: 2022-02-08T00:00:00+00:00
 author: 이정목
 layout: post
-permalink: /3273-두-수의-합/
-categories: PS
-tags: [백준, 투포인터, 두 수의 합]
+permalink: /return-to-overwrite/
+categories: pwnable
+tags: [dreamhack, pwnable, return to overwrite]
 ---
 
 **해당 포스팅은 드림핵의 강의를 정리한 글이다.** Return to Overwrite는 스택 버퍼 오버플로우를 이용해서 return 자리의 주소를 내가 원하는 주소로 바꾸는 것이다. 따라서 스택에서 어느 위치에 버퍼가 위치해 있고, 얼마만큼을 overwrite해야 하는지를 잘 따져 주어야 한다. 해당 이미지는 [드림핵](https://dreamhack.io/learn/58#7)에 있는 그림을 가져온 것이다. 내가 함수 호출 규약을 설명한 [글](https://mok0102.github.io/호출-규약/)을 보면 제대로 알 수 있다.  
