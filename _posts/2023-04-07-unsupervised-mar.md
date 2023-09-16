@@ -296,4 +296,4 @@ disentanglement parameter $\beta$  that imposes relative importance on the recon
 
 
 ### 정리
-MAR에서 self-supervised를 어떻게 사용하는지가 궁금해서 봤는데 역시 MAR에서 self-supervise가 supervise를 이기기는 힘든 것 같다. 성능이 많이 안 따라와줘서 조금 아쉽기도 한데, 그래도 내가 self-supervised로 문제를 풀었다면 이렇게 풀었겠구나를 그대로 따라간 것 같아 논문 하나로 내가 생각한 걸 정리할 수 있었던 것 같다. synthesized data가 너무 강력한 MAR task에서 이후에 self-supervised가 언제 그리고 어떻게 superivsed를 능가하게 될 지 궁금하다.
+MAR에서 self-supervised를 어떻게 사용하는지가 궁금해서 봤는데 역시 MAR에서 self-supervise가 supervise를 이기기는 힘든 것 같다. 성능이 많이 안 따라와줘서 조금 아쉽기도 한데, 그래도 내가 self-supervised로 문제를 풀었다면 이렇게 풀었겠구나를 그대로 따라간 것 같아 논문 하나로 내가 생각한 걸 정리할 수 있었던 것 같다. attention을 사용한 위치랑 이유가 나랑도 비슷해서 신기하기도 하고 역시 다들 비슷한 생각을 하고 있구나를 또 느낄 수 있었다..ㅋㅋ synthesized data가 너무 강력한 MAR task에서 이후에 self-supervised가 언제 그리고 어떻게 superivsed를 능가하게 될 지 궁금하다.
