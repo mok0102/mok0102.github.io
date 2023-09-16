@@ -4,7 +4,7 @@ date: 2021-11-19T00:00:00+00:00
 author: 이정목
 layout: post
 permalink: /Free-Form-Image-Inpainting-with-Gated-Convolution/
-categories: PS
+categories: AI
 tags: [AI, inpainting, GAN, gated convolution]
 ---
 
