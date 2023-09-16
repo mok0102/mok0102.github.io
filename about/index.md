@@ -3,4 +3,5 @@ layout: page
 type: about
 ---
 
-Building...
+JungMok Lee. 
+Majoring Computer Science and Engineering.
