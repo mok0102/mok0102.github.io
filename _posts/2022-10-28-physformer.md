@@ -8,7 +8,7 @@ categories: AI
 tags: [AI, rPPG, transformer, temporal difference convolution]
 ---
 
-회사 인턴을 하면서 heart rate estimation을 해야 하는데 쓸만한 걸 못찾아서 잔뜩 스트레스 받던 찾은 모델이다. 트랜스포머 기반으로 해서 현재 SOTA 모델이다. 2D CNN기반은 거의 사용 못할 결과가 나오고, 대부분의 모델이 rPPG만 predict해서 실제 rPPG로 심박수를 계산해보면 처참한 수준의 결과만 얻을 수 있다. 그런데 이 모델은 rPPG에서 psd로 심박수로 추출하여 loss term에 활용하고 있기 때문에 심박수만 필요한 내 task에서 심박수가 쓸만한 정도로 나온다. 정말 한 줄기 빛의 모델이다.
+회사 인턴을 하면서 heart rate estimation을 해야 하는데 쓸만한 걸 못찾아서 잔뜩 스트레스 받고 있다가 찾은 모델이다. 트랜스포머 기반으로 해서 현재 SOTA 모델이다. 2D CNN기반은 거의 사용 못할 결과가 나오고, 대부분의 모델이 rPPG만 predict해서 실제 rPPG로 심박수를 계산해보면 처참한 수준의 결과만 얻을 수 있다. 그런데 이 모델은 rPPG에서 psd로 심박수로 추출하여 loss term에 활용하고 있기 때문에 심박수만 필요한 내 task에서 심박수가 쓸만한 정도로 나온다. 정말 한 줄기 빛의 모델이다.
 
 [논문 링크](https://arxiv.org/abs/2111.12082)
 
