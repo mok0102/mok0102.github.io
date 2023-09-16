@@ -209,7 +209,7 @@ A: spatial attention map, T: channel attention map, Z: feature map
 
 저 channelwise attention이랑 spatial attention을 같이 쓰는 방법론이 되게 많이 나왔는데, CBAM은 channel attention과 spatial attention을 따로 태운 후 merge하는 형태가 아니라 순차적으로 channel attention, spatial attention을 태우기 때문에 가볍다. (개인적으로는 그래서 더 안정적인 것 같기도 하다..?)
 
-![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2022_04_07_1.png?raw=true)
+![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2023_04_07_1.png?raw=true)
 
 
 ## Meterials and Methods
@@ -233,12 +233,12 @@ A: spatial attention map, T: channel attention map, Z: feature map
 
 - $G_\theta, F_\phi$ 모두 U-net + attention in skip/concatentation 으로 진행된다. MAR을 해본 경험으로써 저 skip쪽에 attention 모듈을 다는 게 되게 중요한데, 그 이유가 encoder feature에서 미처 제거되지 못한 artifact들이 이후에 decoder와 concat하면서 다 살아나 버리기 때문에, encoder feature에 attention을 붙여 artifact를 떨어뜨려 가면서 concat하는 게 매우 관건이다. 여기도 그걸 알고 네트워크를 이런 식으로 구성한 것 같다.
 
-![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2022_04_07_2.png?raw=true)
+![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2023_04_07_2.png?raw=true)
 
 - $D_\psi, D_\varphi$ 는 PatchGAN base
 4 conv + fc with batchnorm
 
-![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2022_04_07_3.png?raw=true)
+![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2023_04_07_3.png?raw=true)
 
 ### Training Detail
 
@@ -262,18 +262,18 @@ A: spatial attention map, T: channel attention map, Z: feature map
 ## Real data
 (a) input (b) proposed (c) LI (d) NMAR (e) ADN with downsampled input (f) proposed with downsampled input
 
-![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2022_04_07_4.png?raw=true)
+![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2023_04_07_4.png?raw=true)
 
 Homogeneous region (tissue)
-![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2022_04_07_5.png?raw=true)
+![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2023_04_07_5.png?raw=true)
 
 아쉬운 점은 supervised 방법론과의 비교는 없다는 점이다. 아무래도 synthetic data가 어느 정도 realistic할 수 있는 metal artifact reduction에서 self-supervised가 supervised를 이기기에는 무리가 있었지 않나.. 생각이 든다.
 
 ### Synthetic data 
 
-![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2022_04_07_6.png?raw=true)
+![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2023_04_07_6.png?raw=true)
 
-![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2022_04_07_7.png?raw=true)
+![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2023_04_07_7.png?raw=true)
 
 ### blation Study
 
@@ -283,7 +283,7 @@ Homogeneous region (tissue)
 - Dependency on the disentanglement parameter
     - $\beta$=10일때가 더 결과가 좋다
 
-![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2022_04_07_8.png?raw=true)
+![이미지](https://github.com/JungMok-Lee/JungMok-Lee.github.io/blob/master/assets/images/2023_04_07_8.png?raw=true)
 
 
 ### Discussion
