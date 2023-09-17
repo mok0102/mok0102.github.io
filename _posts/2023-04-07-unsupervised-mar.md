@@ -109,7 +109,7 @@ $$logp_{\theta}(x) >= \int log\, p_\theta(x|z) q_\phi(z|x)dz - D_{kl}(q_\phi(z|x
 $$- logp_{\theta}(x) <= - \int log\, p_\theta(x|z) q_\phi(z|x)dz + D_{kl}(q_\phi(z|x)||p(z))$$
 
 
-그런데 KL divergence의 최솟값이 0이므로 upper bound의 minimize가 가능해집니다.
+그런데 KL divergence의 최솟값이 0이므로 upper bound의 minimize가 가능해진다.
 
 이렇게 유도된 VAE 식의 KL-divergence에 $\beta\$를 붙인 걸 $\beta\$-VAE라고 부른다. 베타를 붙인 이유는 
 
