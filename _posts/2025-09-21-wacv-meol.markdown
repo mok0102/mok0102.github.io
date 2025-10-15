@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Training-free Multimodal Embedding for Structure-Aware Retrieval of Scalable Vector Graphics and Images"
+date:   2025-09-15 22:21:59 +00:00
+image: /images/meol.png
+categories: publications
+author: "Lee Jung-Mok"
+venue: "WACV 2026 <ystrong>(Round 1 Acceptance!!)</ystrong>"
+authors: "Kyeongseon Kim, Baek Seong-Eun, <strong>Lee Jung-Mok</strong>, Tae-Hyun Oh"
+subtitle: "Training-free multimodal embedder for SVG images"
+arxiv: ""
+code: ""
+website: ""
+---
+
+We propose the first training-free multimodal embedding method that uses a Multimodal Large Language Model (MLLM) to project text, images, and SVG code into an aligned space.

@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models"
+date:   2025-04-28 22:21:59 +00:00
+image: /images/avhbench2.png
+categories: publications
+author: "Lee Jung-Mok"
+venue: "ICLR 2025"
+authors: "Kim Sung-Bin*, Oh Hyun-Bin*, <strong>Lee Jung-Mok</strong>, Arda Senocak, Joon Son Chung, Tae-Hyun Oh"
+subtitle: "Automatic Model Discovery using VLM agents"
+arxiv: https://arxiv.org/abs/2410.18325
+code: https://github.com/kaist-ami
+website: https://github.com/AVHBench/AVHBench
+---
+
+We introduce a comprehensive audio-visual hallucination benchmark specifically designed to evaluate the perception and comprehension capabilities of audio-visual LLMs.

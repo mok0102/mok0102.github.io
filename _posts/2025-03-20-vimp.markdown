@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Does Visual Arrow Improve Motion Comprehension in Multimodal Large Language Models?"
+date:   2025-03-20 22:21:59 +00:00
+image: /images/vimp.png
+categories: "ongoing"
+author: "Lee Jung-Mok"
+venue: "ongoing"
+authors: "Baek Seong-Eun, Nam Hyeon-Woo, <strong>Lee Jung-Mok</strong>, Tae-Hyun Oh"
+subtitle: "VLM with motion prompting"
+# arxiv: ""
+# code: ""
+# website: ""
+---
+
+In ViMP, we draw a visual arrow on a sampled frame of a video by hand. ViMP conveys motion information with visual contexts, reducing the need for multiple frame.
