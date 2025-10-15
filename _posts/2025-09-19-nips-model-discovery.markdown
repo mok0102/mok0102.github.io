@@ -5,7 +5,7 @@ date:   2025-10-14 22:21:59 +00:00
 image: /images/model_discovery.png
 categories: publications
 author: "Lee Jung-Mok"
-venue: "NeurIPS 2025"
+venue: "NeurIPS 2025, IPIU 2025 <ystrong>(Best Poster Awarded!!)</ystrong>"
 authors: "<strong>Lee Jung-Mok</strong>, Nam Hyeon-Woo, Moon Ye-Bin, Junhyun Nam, Tae-Hyun Oh"
 subtitle: "Automatic Model Discovery using VLM agents"
 arxiv: https://arxiv.org/abs/2509.25946
