@@ -10,7 +10,7 @@ authors: "Kim Sung-Bin*, Oh Hyun-Bin*, <strong>Lee Jung-Mok</strong>, Arda Senoc
 subtitle: "Automatic Model Discovery using VLM agents"
 arxiv: https://arxiv.org/abs/2410.18325
 code: https://github.com/kaist-ami
-website: https://github.com/AVHBench/AVHBench
+website: https://avhbench.github.io/
 ---
 
 We introduce a comprehensive audio-visual hallucination benchmark specifically designed to evaluate the perception and comprehension capabilities of audio-visual LLMs.

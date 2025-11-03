@@ -10,7 +10,7 @@ authors: "<strong>Lee Jung-Mok</strong>, Nam Hyeon-Woo, Moon Ye-Bin, Junhyun Nam
 subtitle: "Automatic Model Discovery using VLM agents"
 arxiv: https://arxiv.org/abs/2509.25946
 code: https://github.com/kaist-ami
-website: https://github.com/kaist-ami
+website: https://mok0102.github.io/model-discovery
 ---
 
 We present a multi-modal & multi-step pipeline for effective automated model discovery, using the multimodal LLM agents. We model the interpretation of time-series data using Gaussian Process kernel discovery. 

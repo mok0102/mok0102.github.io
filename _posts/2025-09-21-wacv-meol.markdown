@@ -8,9 +8,9 @@ author: "Lee Jung-Mok"
 venue: "WACV 2026 <ystrong>(Round 1 Acceptance!!)</ystrong>"
 authors: "Kyeongseon Kim, Baek Seong-Eun, <strong>Lee Jung-Mok</strong>, Tae-Hyun Oh"
 subtitle: "Training-free multimodal embedder for SVG images"
-arxiv: ""
-code: ""
-website: ""
+arxiv: "https://github.com/scene-the-ella/scene-the-ella.github.io/blob/main/meol/static/pdfs/iccvw_muse.pdf"
+code: "https://github.com/kaist-ami"
+website: "https://scene-the-ella.github.io/meol/"
 ---
 
 We propose the first training-free multimodal embedding method that uses a Multimodal Large Language Model (MLLM) to project text, images, and SVG code into an aligned space.
