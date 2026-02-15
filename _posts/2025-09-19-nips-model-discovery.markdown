@@ -9,7 +9,7 @@ venue: "NeurIPS 2025" # , IPIU 2025<ystrong>(Best Poster Awarded!!)</ystrong>"
 authors: "<strong>Lee Jung-Mok</strong>, Nam Hyeon-Woo, Moon Ye-Bin, Junhyun Nam, Tae-Hyun Oh"
 subtitle: "Automatic Model Discovery using VLM agents"
 arxiv: https://arxiv.org/abs/2509.25946
-code: https://github.com/kaist-ami
+code: https://github.com/kaist-ami/Automated-Model-Discovery
 website: https://mok0102.github.io/model-discovery
 ---
 

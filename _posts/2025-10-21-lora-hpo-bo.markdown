@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Efficient Hyper-Parameter Search for LoRA via Language-aided Bayesian Optimization"
-date:   2025-09-20 22:21:59 +00:00
+title:  "EFFICIENT HYPER-PARAMETER SEARCH FOR LORA VIA LANGUAGE-AIDED BAYESIAN OPTIMIZATION"
+date:   2026-01-15 22:21:59 +00:00
 image: /images/lorahpo.png
-categories: "ICLR submission"
+categories: "arXiv"
 author: "Lee Jung-Mok"
 venue: "Under Review"
 authors: "Baek Seong-Eun, <strong>Lee Jung-Mok</strong>, Kim Sung-Bin, Tae-Hyun Oh"
