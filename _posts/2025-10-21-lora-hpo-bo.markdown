@@ -6,6 +6,7 @@ image: /images/lorahpo.png
 categories: "arXiv"
 author: "Lee Jung-Mok"
 venue: "Under Review"
+arxiv: https://arxiv.org/abs/2509.25946
 authors: "Baek Seong-Eun, <strong>Lee Jung-Mok</strong>, Kim Sung-Bin, Tae-Hyun Oh"
 subtitle: "LLM with Bayesian Optimization for LoRA Hyperparameter Optimization"
 # arxiv: ""

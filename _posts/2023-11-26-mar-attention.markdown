@@ -2,7 +2,7 @@
 layout: post
 title: "Metal Artifact Reduction for Head and Neck CBCT with Attentional Dual Encoder Fusion UNet"
 date:   2023-11-28 22:21:59 +00:00
-# image: /images/mar_attention_2.png
+image: /images/mar_attention_2.png
 categories: publications
 author: "Lee Jung-Mok"
 venue: "RSNA 2023"

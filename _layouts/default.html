@@ -6,7 +6,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-E00L9PT3V9');
@@ -20,24 +20,31 @@
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
 
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
                 JungMok Lee
               </h1>
-              <p>I am a 2nd-year Master student at <a href="https://ami.kaist.ac.kr/">AMI Lab</a>, where I work on multimodal perception, advised by <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh">Tae-Hyun Oh</a>. I major in <a href="https://eee.postech.ac.kr/">Department of Electrical Engineering</a> at <a href="https://postech.ac.kr/">POSTECH</a>.
+              <p>I am a 1st-year Ph.D. student at <a href="https://ami.kaist.ac.kr/">AMI Lab</a>, where I work on
+                multimodal perception, advised by <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh">Tae-Hyun
+                  Oh</a>. I major in <a href="https://ee.kaist.ac.kr/">Department of Electrical Engineering</a> at <a
+                  href="https://kaist.ac.kr/">KAIST</a>.
               </p>
               <p>
-                I'm interested in computer vision, multimodal large language model, machine learning, and visual interpretation.
+                I'm interested in computer vision, multimodal large language model, machine learning, and visual
+                interpretation.
               </p>
               <p style="text-align:center">
                 <a target="_blank" href="mailto:jungmok@postech.ac.kr"> Email</a> &nbsp;/&nbsp;
@@ -52,14 +59,16 @@
           </tr>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Publications & Research</h2>
             </td>
           </tr>
         </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
@@ -80,22 +89,22 @@
               <a href="{{post.website}}">[project page] </a>
               {% endif %}
               {% if post.arxiv %}
-              <a href="{{post.arxiv}}">[arxiv] </a> 
+              <a href="{{post.arxiv}}">[arxiv] </a>
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">[video] </a> 
+              <a href="{{post.video}}">[video] </a>
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">[code] </a> 
+              <a href="{{post.code}}">[code] </a>
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">[poster] </a> 
+              <a href="{{post.poster}}">[poster] </a>
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">[slides] </a> 
+              <a href="{{post.slides}}">[slides] </a>
               {% endif %}
               {% if post.youtube %}
-              <a href="{{post.youtube}}">[youtube] </a> 
+              <a href="{{post.youtube}}">[youtube] </a>
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -175,12 +184,14 @@
           {% endfor %}
         </table> -->
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
               <br>
               <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's
+                  website</a>
               </p>
             </td>
           </tr>
@@ -191,4 +202,3 @@
 </body>
 
 </html>
-
