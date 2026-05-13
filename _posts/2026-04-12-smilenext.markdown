@@ -10,7 +10,7 @@ authors: "<strong>Lee JungMok</strong>, Kim Sung-Bin, Joohyun Chang, Lee Hyun, T
 subtitle: "Enhanced Multimodal Laughter Dataset and Laugh-Expert Model"
 arxiv: https://arxiv.org/abs/2509.25946
 code: https://github.com/kaist-ami
-website: https://mok0102.github.io/smile-next
+website: https://mok0102.github.io/smile-next   
 ---
 
 We introduce the SMILE-NEXT, a comprehensive corpus combining audio, visual, and textual cues for laughter understanding across diverse contexts. We propose Laugh Expert MOE architecture, a lightweight yet expressive model architecture to efficiently model laughter perception.
