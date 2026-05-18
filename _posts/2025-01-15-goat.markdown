@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "GOAT: Goal-Oriented Adaptive Token pruning for Large Vision-Language Models"
+date:   2025-01-15 22:21:59 +00:00
+image: /images/goat.png
+categories: publications
+author: "Lee Jung-Mok"
+venue: "IPIU 2025"
+authors: "Wonseok Choi, <strong>Lee Jung-Mok</strong>, Tae-Hyun Oh"
+subtitle: "Goal-Oriented Adaptive Token pruning for Large Vision-Language Models"
+# arxiv: https://arxiv.org/abs/2410.18325
+# code: https://github.com/kaist-ami
+# website: https://avhbench.github.io/
+---
+
+We introduce GOAT, Goal-Oriented Adaptive Token pruning, a dynamic framework for selective token pruning. GOAT utilizes contextual hypotheses and confidence scores to identify and retain task-relevant
+visual tokens through an adaptive Token Brushing process.
