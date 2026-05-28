@@ -8,7 +8,7 @@ author: "Lee JungMok"
 venue: "ACL 2026 <ystrong>(Main & Oral Acceptance)</ystrong>"
 authors: "<strong>Lee JungMok</strong>, Kim Sung-Bin, Joohyun Chang, Lee Hyun, Tae-Hyun Oh"
 subtitle: "Enhanced Multimodal Laughter Dataset and Laugh-Expert Model"
-arxiv: https://arxiv.org/abs/2509.25946
+arxiv: https://arxiv.org/pdf/2605.28084
 code: https://github.com/kaist-ami
 website: https://mok0102.github.io/smile-next   
 ---
