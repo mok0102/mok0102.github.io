@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SMILE-Next: Teaching Large Language Models to Detect, Classify, and Reason about Laughter"
-date:   2026-07-11 22:21:59 +00:00
+date:   2026-05-12 22:21:59 +00:00
 image: /images/smile-next.png
 categories: publications
 author: "Lee JungMok"
